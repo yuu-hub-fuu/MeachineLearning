@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "baseline",
+    "loss": 2.1205945014953613,
+    "gradients": {},
+    "seconds": 1.4705045223236084
+  },
+  {
+    "variant": "local",
+    "loss": 2.125880479812622,
+    "gradients": {
+      "local.scale": 0.1289711594581604
+    },
+    "seconds": 0.16360807418823242
+  },
+  {
+    "variant": "scn",
+    "loss": 1.626296877861023,
+    "gradients": {
+      "local.scale": 0.09607411921024323,
+      "confidence.weight": 1.53936767578125
+    },
+    "seconds": 0.3554396629333496
+  },
+  {
+    "variant": "rul",
+    "loss": 3.4486241340637207,
+    "gradients": {
+      "local.scale": 0.35662010312080383,
+      "log_variance.1.weight": 1.8113435506820679
+    },
+    "seconds": 0.39344000816345215
+  }
+]

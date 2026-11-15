@@ -1,0 +1,24 @@
+{
+  "mode": "train",
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "variants": [
+    "control"
+  ],
+  "variant": "control",
+  "steps": 900,
+  "style": "d8",
+  "script_sha256": "be0d4f8bac5643d97b37b0556b9198ddb1447a17e33d45719311808d1cc1bd4c",
+  "starting_models": "V1 per-fold best.pt; unchanged original image splits",
+  "seed_base": 20270103,
+  "lr_start": 0.0002,
+  "lr_end": 2e-05,
+  "ema_decay": 0.98,
+  "batch": 12,
+  "baseline_online_reported": 0.85042
+}

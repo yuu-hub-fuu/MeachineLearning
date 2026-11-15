@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "per_class_per_partition": 128,
+  "training_samples": 768,
+  "validation_samples": 768,
+  "representation": "L2-normalized CLS before classification/projector; original view only",
+  "used_for_model_selection": false,
+  "source_image_overlap_possible": true,
+  "results": [
+    {
+      "model": "public",
+      "within_class_cosine": 0.4868227243423462,
+      "between_class_cosine": 0.016122523695230484,
+      "cosine_gap": 0.4707002006471157,
+      "train_prototype_validation_accuracy": 0.81640625,
+      "fear_sad_prototype_cosine": 0.30514994263648987,
+      "sad_neutral_prototype_cosine": 0.3692304790019989
+    },
+    {
+      "model": "ce",
+      "within_class_cosine": 0.5016488432884216,
+      "between_class_cosine": 0.03651374205946922,
+      "cosine_gap": 0.4651351012289524,
+      "train_prototype_validation_accuracy": 0.8177083333333334,
+      "fear_sad_prototype_cosine": 0.37989169359207153,
+      "sad_neutral_prototype_cosine": 0.4268699288368225
+    },
+    {
+      "model": "supcon",
+      "within_class_cosine": 0.5028179287910461,
+      "between_class_cosine": 0.037628378719091415,
+      "cosine_gap": 0.4651895500719547,
+      "train_prototype_validation_accuracy": 0.8177083333333334,
+      "fear_sad_prototype_cosine": 0.3828120529651642,
+      "sad_neutral_prototype_cosine": 0.42896735668182373
+    }
+  ]
+}

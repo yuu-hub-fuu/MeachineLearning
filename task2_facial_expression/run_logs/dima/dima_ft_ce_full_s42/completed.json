@@ -1,0 +1,9 @@
+{
+  "mode": "ce",
+  "epoch": 3,
+  "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_ce_full_s42\\best.pt",
+  "run": "D:\\FER2026task2\\runs\\dima_ft_ce_full_s42",
+  "full": true,
+  "elapsed_seconds": 781.8213288784027,
+  "completed": true
+}

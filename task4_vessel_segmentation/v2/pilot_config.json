@@ -1,0 +1,21 @@
+{
+  "mode": "pilot",
+  "folds": [
+    0,
+    2
+  ],
+  "variants": [
+    "control",
+    "context_clahe"
+  ],
+  "steps": 300,
+  "style": "d8",
+  "script_sha256": "f1c220e40b2e8956f82fa644a5cfe16923f75f1817277195fdd1ac92f44f3e54",
+  "starting_models": "V1 per-fold best.pt; unchanged original image splits",
+  "seed_base": 20270103,
+  "lr_start": 0.0002,
+  "lr_end": 2e-05,
+  "ema_decay": 0.98,
+  "batch": 12,
+  "baseline_online_reported": 0.85042
+}

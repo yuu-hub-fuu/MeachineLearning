@@ -1,0 +1,151 @@
+{
+  "download_complete": true,
+  "models": [
+    {
+      "name": "RLAD-SwinV2-Large",
+      "path": "D:\\新建文件夹\\websites\\task4\\open_models\\rlad_swinv2_large\\model.safetensors",
+      "bytes": 806056424,
+      "sha256": "904c8c20ba38ff23f4350454349ce92e1cb7bbbcefe214243d3f458ecc8f3338",
+      "upstream_hash_verified": true
+    },
+    {
+      "model": "RBV-SIN",
+      "url": "https://github.com/CGGMFF/rbv-sin/releases/download/v1.1.0/trained_weights_h5.zip",
+      "bytes": 87678809,
+      "sha256": "cc4c04592291a3d9a168477de3929a7d72cd7093d7e2e58e139cda4be5affeab",
+      "crc_valid": true,
+      "entries": [
+        {
+          "path": "trained_weights_h5/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/epoch_metrics.txt",
+          "bytes": 6689
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/epoch_loss.png",
+          "bytes": 22115
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/epoch_perc_loss.png",
+          "bytes": 27214
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/epoch_rec_loss.png",
+          "bytes": 26535
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/step_loss.png",
+          "bytes": 27958
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/step_perc_loss.png",
+          "bytes": 30572
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/graphs/step_rec_loss.png",
+          "bytes": 28505
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/model/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/model/inp_generator_weights.h5",
+          "bytes": 46085072
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/model/model_params.txt",
+          "bytes": 12
+        },
+        {
+          "path": "trained_weights_h5/nn/inp_20240213_e0100/step_metrics.txt",
+          "bytes": 4160469
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/epoch_metrics.txt",
+          "bytes": 4266
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/graphs/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/graphs/epoch_iou.png",
+          "bytes": 20662
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/graphs/epoch_seg_loss.png",
+          "bytes": 26619
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/graphs/step_iou.png",
+          "bytes": 58358
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/graphs/step_seg_loss.png",
+          "bytes": 50464
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/model/",
+          "bytes": 0
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/model/model_params.txt",
+          "bytes": 12
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/model/seg_weights.h5",
+          "bytes": 46275480
+        },
+        {
+          "path": "trained_weights_h5/nn/seg_20240212_e0100/step_metrics.txt",
+          "bytes": 1526519
+        }
+      ],
+      "license": "CC BY 4.0 for weights; MIT for code",
+      "runtime": "TensorFlow/Keras H5; not evaluated in current PyTorch environment"
+    }
+  ],
+  "excluded": [
+    "R2-V2: potential RITE/DRIVE overlap"
+  ],
+  "original_v4_submission_unchanged": true,
+  "validation_status": "complete",
+  "submission": {
+    "valid": true,
+    "rows": 20,
+    "sha256": "753ad2d2ec9f1e4c828b1908f61aacb0387c124897e6aeb060ddaa2591cc418e",
+    "selected": {
+      "alpha": 0.5,
+      "threshold": 0.275,
+      "dice": 0.8504923728350195
+    },
+    "baseline_v4_validation": 0.8452916748701096,
+    "delta_validation": 0.005200697964909962,
+    "weights_sha256": "904c8c20ba38ff23f4350454349ce92e1cb7bbbcefe214243d3f458ecc8f3338",
+    "geometry": "crop known 14px padded input margin at 1472 decoder grid",
+    "rule": "alpha*open_model_confidence+(1-alpha)*V4_confidence",
+    "foreground": "white vessels",
+    "official_and_independent_RLE_match": true,
+    "kaggle_uploaded": false,
+    "online_score": null
+  }
+}

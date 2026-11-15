@@ -1,0 +1,19 @@
+{
+  "real_checkpoint_views": [
+    "single",
+    "flip",
+    "multiscale",
+    "multiscale_crop"
+  ],
+  "images": 12,
+  "features_shape": [
+    12,
+    1280
+  ],
+  "native_probabilities_match_feature_forward": true,
+  "synthetic_knn_class_mapping_correct": true,
+  "feature_cache_reload_identical": true,
+  "local_branch_all_scales_valid": true,
+  "global_and_local_features_extracted_separately": true,
+  "status": "passed"
+}

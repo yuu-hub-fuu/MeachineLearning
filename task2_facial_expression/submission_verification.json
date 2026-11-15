@@ -1,0 +1,47 @@
+{
+  "rows": 7065,
+  "columns": [
+    "ID",
+    "Emotion"
+  ],
+  "id_order_matches_template": true,
+  "label_counts": [
+    962,
+    952,
+    1712,
+    1281,
+    805,
+    1353
+  ],
+  "submission_sha256": "638c6e4211e44bc72697d329ed9b799182e77b4dc5bc18c0c55c0f106766ddfb",
+  "seed": 42,
+  "model_checkpoint_paths": [
+    "D:\\FER2026task2\\pretrained\\hf_dima\\model.safetensors",
+    "D:\\FER2026task2\\runs\\dima_ft_ce_full_s42\\best.pt"
+  ],
+  "dima_selected": {
+    "mode": "ce",
+    "epoch": 3,
+    "tta": "single",
+    "accuracy": 0.8315319548872181,
+    "macro_f1": 0.824601655903435,
+    "nll": 0.4980648159980774,
+    "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42\\best.pt",
+    "run": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42",
+    "full": false,
+    "elapsed_seconds": 1139.3017089366913,
+    "completed": true
+  },
+  "source_image_overlap_possible": true,
+  "dima_test_time_adaptation": null,
+  "checkpoints": [
+    {
+      "path": "D:\\FER2026task2\\pretrained\\hf_dima\\model.safetensors",
+      "sha256": "ffad6b9e5cb20d4857f4b532c2543055d7d0e7e1422ab7469087edaab82f8dd8"
+    },
+    {
+      "path": "D:\\FER2026task2\\runs\\dima_ft_ce_full_s42\\best.pt",
+      "sha256": "407d3199c92dab6b5f20cd46d57cce60be94f94a3ee0ccc09968ed909e92e3d0"
+    }
+  ]
+}

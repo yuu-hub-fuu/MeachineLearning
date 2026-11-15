@@ -1,0 +1,27 @@
+[
+  {
+    "name": "nla_rafdb_best.pth",
+    "url": "https://drive.usercontent.google.com/download?id=12NY75DwMUnXFbRYDQso4eXIxLAV2PP63&export=download&confirm=t",
+    "bytes": 46894543,
+    "source": "https://github.com/jungyu0413/NLA",
+    "pretraining": "MS-Celeb-1M then RAF-DB",
+    "path": "D:\\FER2026task2\\pretrained\\nla_rafdb_best.pth",
+    "sha256": "a85b57f5d4be7a159aa60bd14fd9e4aa8a0010b4e7a346f219861493fcb90194",
+    "status": "downloaded_verified_size"
+  },
+  {
+    "name": "resmasking_fer2013.pth",
+    "status": "failed",
+    "error": "RuntimeError('Wrong size for resmasking_fer2013.pth')"
+  },
+  {
+    "name": "qcs_ferplus_best.pth",
+    "url": "https://drive.usercontent.google.com/download?id=1nepj3oPB670p03ReF9yFGxD9JwK_RGhk&export=download&confirm=t",
+    "bytes": 331781045,
+    "source": "https://github.com/birdwcp/QCS",
+    "pretraining": "MS-Celeb-1M then FERPlus",
+    "path": "D:\\FER2026task2\\pretrained\\qcs_ferplus_best.pth",
+    "sha256": "50be69c638c8158e13b8eca6e4cf1f10593908b88622aacacbe409f48ab3cddf",
+    "status": "downloaded_verified_size"
+  }
+]

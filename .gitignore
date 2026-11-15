@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.safetensors
+*.joblib
+*.npz
+*.npy
+*.zip
+work/
+data/
+runs/
+cache/

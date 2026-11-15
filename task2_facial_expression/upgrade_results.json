@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "kind": "nla",
+      "mode": "native",
+      "tta": "single",
+      "epoch": 0,
+      "accuracy": 0.5056390977443609,
+      "macro_f1": 0.45468661611807937,
+      "nll": 1.9669122695922852
+    },
+    {
+      "kind": "nla",
+      "mode": "native",
+      "tta": "flip",
+      "epoch": 0,
+      "accuracy": 0.5105733082706767,
+      "macro_f1": 0.45999533154352434,
+      "nll": 1.9184346199035645
+    },
+    {
+      "kind": "nla",
+      "mode": "linear",
+      "tta": "flip",
+      "epoch": 20,
+      "cache": "D:\\FER2026task2\\upgrade_cache\\nla_191ae1659f3a8afb",
+      "checkpoint": "D:\\FER2026task2\\runs\\upgrade_nla_linear_holdout_s42\\best.pt",
+      "accuracy": 0.5721334586466166,
+      "macro_f1": 0.5400441402557653,
+      "nll": 1.1362552642822266
+    },
+    {
+      "kind": "nla",
+      "mode": "adapter_ce",
+      "tta": "flip",
+      "epoch": 17,
+      "cache": "D:\\FER2026task2\\upgrade_cache\\nla_191ae1659f3a8afb",
+      "checkpoint": "D:\\FER2026task2\\runs\\upgrade_nla_adapter_ce_holdout_s42\\best.pt",
+      "accuracy": 0.6390977443609023,
+      "macro_f1": 0.61043395824526,
+      "nll": 0.9619854688644409
+    },
+    {
+      "kind": "nla",
+      "mode": "supcon",
+      "tta": "flip",
+      "epoch": 17,
+      "cache": "D:\\FER2026task2\\upgrade_cache\\nla_191ae1659f3a8afb",
+      "checkpoint": "D:\\FER2026task2\\runs\\upgrade_nla_supcon_holdout_s42\\best.pt",
+      "accuracy": 0.6390977443609023,
+      "macro_f1": 0.6107096673998518,
+      "nll": 0.9612281918525696
+    },
+    {
+      "kind": "hf_dima",
+      "mode": "native",
+      "tta": "single",
+      "epoch": 0,
+      "accuracy": 0.8197838345864662,
+      "macro_f1": 0.8125589143210248,
+      "nll": 0.5258791446685791
+    },
+    {
+      "kind": "hf_dima",
+      "mode": "native",
+      "tta": "flip",
+      "epoch": 0,
+      "accuracy": 0.8139097744360902,
+      "macro_f1": 0.8066739008116733,
+      "nll": 0.5373562574386597
+    },
+    {
+      "kind": "hf_dima",
+      "mode": "linear",
+      "tta": "flip",
+      "epoch": 13,
+      "cache": "D:\\FER2026task2\\upgrade_cache\\hf_dima_419cba1016473c0d",
+      "checkpoint": "D:\\FER2026task2\\runs\\upgrade_hf_dima_linear_holdout_s42\\best.pt",
+      "accuracy": 0.8235432330827067,
+      "macro_f1": 0.8160584927523233,
+      "nll": 0.518161416053772
+    },
+    {
+      "kind": "hf_dima",
+      "mode": "adapter_ce",
+      "tta": "flip",
+      "epoch": 1,
+      "cache": "D:\\FER2026task2\\upgrade_cache\\hf_dima_419cba1016473c0d",
+      "checkpoint": "D:\\FER2026task2\\runs\\upgrade_hf_dima_adapter_ce_holdout_s42\\best.pt",
+      "accuracy": 0.8221334586466166,
+      "macro_f1": 0.8145590430119878,
+      "nll": 0.5154678821563721
+    },
+    {
+      "kind": "hf_dima",
+      "mode": "supcon",
+      "tta": "flip",
+      "epoch": 1,
+      "cache": "D:\\FER2026task2\\upgrade_cache\\hf_dima_419cba1016473c0d",
+      "checkpoint": "D:\\FER2026task2\\runs\\upgrade_hf_dima_supcon_holdout_s42\\best.pt",
+      "accuracy": 0.8221334586466166,
+      "macro_f1": 0.8146225812926265,
+      "nll": 0.5156232714653015
+    }
+  ],
+  "failures": [],
+  "completed": false
+}

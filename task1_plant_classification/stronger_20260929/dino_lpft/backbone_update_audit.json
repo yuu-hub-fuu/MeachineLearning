@@ -1,0 +1,27 @@
+{
+  "blocks.0.attn.qkv.weight": {
+    "max_abs_change": 0.0,
+    "mean_abs_change": 0.0,
+    "unchanged": true
+  },
+  "blocks.19.attn.qkv.weight": {
+    "max_abs_change": 0.0,
+    "mean_abs_change": 0.0,
+    "unchanged": true
+  },
+  "blocks.20.attn.qkv.weight": {
+    "max_abs_change": 0.001048356294631958,
+    "mean_abs_change": 0.00014347380783874542,
+    "unchanged": false
+  },
+  "blocks.23.attn.qkv.weight": {
+    "max_abs_change": 0.0010558123467490077,
+    "mean_abs_change": 0.00013370669330470264,
+    "unchanged": false
+  },
+  "norm.weight": {
+    "max_abs_change": 0.0019197463989257812,
+    "mean_abs_change": 0.0004139654338359833,
+    "unchanged": false
+  }
+}

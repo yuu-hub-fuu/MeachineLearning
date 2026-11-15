@@ -1,0 +1,145 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "accuracy": 0.94,
+      "best_params": {
+        "classifier__C": 0.01,
+        "recipe__recipe": "foreground",
+        "recipe__views": 8
+      },
+      "seconds": 38.7073016166687
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.97,
+      "best_params": {
+        "classifier__C": 10.0,
+        "recipe__recipe": "combined",
+        "recipe__views": 2
+      },
+      "seconds": 40.12018847465515
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.95,
+      "best_params": {
+        "classifier__C": 1.0,
+        "recipe__recipe": "foreground",
+        "recipe__views": 8
+      },
+      "seconds": 38.948123931884766
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.95,
+      "best_params": {
+        "classifier__C": 10.0,
+        "recipe__recipe": "combined",
+        "recipe__views": 8
+      },
+      "seconds": 39.10989499092102
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.96,
+      "best_params": {
+        "classifier__C": 0.1,
+        "recipe__recipe": "foreground",
+        "recipe__views": 8
+      },
+      "seconds": 36.93761396408081
+    }
+  ],
+  "accuracy": 0.954,
+  "fold_sd": 0.01140175425099139,
+  "baseline_fixed_C10_accuracy": 0.934,
+  "final_params": {
+    "classifier__C": 0.1,
+    "recipe__recipe": "combined",
+    "recipe__views": 8
+  },
+  "confusion_matrix": [
+    [
+      92,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      4,
+      96,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      91,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      98
+    ]
+  ],
+  "classification_report": {
+    "Black-grass": {
+      "precision": 0.8761904761904762,
+      "recall": 0.92,
+      "f1-score": 0.8975609756097561,
+      "support": 100.0
+    },
+    "Common wheat": {
+      "precision": 0.9896907216494846,
+      "recall": 0.96,
+      "f1-score": 0.9746192893401016,
+      "support": 100.0
+    },
+    "Loose Silky-bent": {
+      "precision": 0.9285714285714286,
+      "recall": 0.91,
+      "f1-score": 0.9191919191919192,
+      "support": 100.0
+    },
+    "Scentless Mayweed": {
+      "precision": 0.9803921568627451,
+      "recall": 1.0,
+      "f1-score": 0.9900990099009901,
+      "support": 100.0
+    },
+    "Sugar beet": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1-score": 0.98989898989899,
+      "support": 100.0
+    },
+    "accuracy": 0.954,
+    "macro avg": {
+      "precision": 0.9549689566548268,
+      "recall": 0.954,
+      "f1-score": 0.9542740367883514,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.9549689566548268,
+      "recall": 0.954,
+      "f1-score": 0.9542740367883514,
+      "support": 500.0
+    }
+  },
+  "note": "Inner CV selects feature recipe and C. Repeated experiment selection across rounds can bias CV. No test labels used."
+}

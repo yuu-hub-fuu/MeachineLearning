@@ -1,0 +1,93 @@
+{
+  "valid": true,
+  "rows": 20,
+  "sha256": "2764ac5f39516da936a37a9d490921329f835cc04977c2a559317e53b19231d9",
+  "images": [
+    {
+      "id": "1",
+      "vessel_fraction": 0.12542343139648438
+    },
+    {
+      "id": "2",
+      "vessel_fraction": 0.12013626098632812
+    },
+    {
+      "id": "3",
+      "vessel_fraction": 0.11915969848632812
+    },
+    {
+      "id": "4",
+      "vessel_fraction": 0.12330245971679688
+    },
+    {
+      "id": "5",
+      "vessel_fraction": 0.13292694091796875
+    },
+    {
+      "id": "6",
+      "vessel_fraction": 0.13138580322265625
+    },
+    {
+      "id": "7",
+      "vessel_fraction": 0.13799667358398438
+    },
+    {
+      "id": "8",
+      "vessel_fraction": 0.13050079345703125
+    },
+    {
+      "id": "9",
+      "vessel_fraction": 0.13608551025390625
+    },
+    {
+      "id": "10",
+      "vessel_fraction": 0.12880325317382812
+    },
+    {
+      "id": "11",
+      "vessel_fraction": 0.11322402954101562
+    },
+    {
+      "id": "12",
+      "vessel_fraction": 0.11663436889648438
+    },
+    {
+      "id": "13",
+      "vessel_fraction": 0.15246200561523438
+    },
+    {
+      "id": "14",
+      "vessel_fraction": 0.13053512573242188
+    },
+    {
+      "id": "15",
+      "vessel_fraction": 0.14867782592773438
+    },
+    {
+      "id": "16",
+      "vessel_fraction": 0.1242523193359375
+    },
+    {
+      "id": "17",
+      "vessel_fraction": 0.13898086547851562
+    },
+    {
+      "id": "18",
+      "vessel_fraction": 0.14267349243164062
+    },
+    {
+      "id": "19",
+      "vessel_fraction": 0.12745285034179688
+    },
+    {
+      "id": "20",
+      "vessel_fraction": 0.11904525756835938
+    }
+  ],
+  "target": "white vessel foreground; official-script generated and independently decoded",
+  "selected": {
+    "alpha": 0.5,
+    "threshold": 0.425,
+    "dice": 0.8452916748701096
+  }
+}

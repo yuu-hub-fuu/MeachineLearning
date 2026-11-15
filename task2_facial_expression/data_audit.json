@@ -1,0 +1,40 @@
+{
+  "train_count": 28275,
+  "train_classes": {
+    "Angry": 3963,
+    "Fear": 4097,
+    "Happy": 7192,
+    "Neutral": 4959,
+    "Sad": 4862,
+    "Surprise": 3202
+  },
+  "test_count": 7065,
+  "sizes": {
+    "(48, 48)": 35340
+  },
+  "modes": {
+    "L": 35340
+  },
+  "decode_errors": [],
+  "submission_columns": [
+    "ID",
+    "Emotion"
+  ],
+  "submission_rows": 7065,
+  "submission_duplicate_ids": 0,
+  "missing_test_ids": [],
+  "unknown_submission_ids": [],
+  "pixel_duplicate_groups": 1450,
+  "pixel_duplicate_excess_images": 1764,
+  "train_test_duplicate_groups": 490,
+  "conflicting_train_label_groups": 39,
+  "majority_class_baseline": 0.25435897435897437,
+  "competition_label_mapping": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "completed": true,
+  "config": {
+    "seed": 42,
+    "epochs": 5,
+    "patience": 3,
+    "batch_images": 32,
+    "accumulation": 1,
+    "unfrozen_blocks": 4,
+    "backbone_lr": 3e-06,
+    "head_lr": 3e-05,
+    "projection_lr": 0.0001,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.02,
+    "supcon_weight": 0.03,
+    "js_weight": 0.1,
+    "temperature": 0.1,
+    "source_image_overlap_possible": true,
+    "minimum_gain": 0.0025,
+    "augmentation": "independent views: +/-8deg, scale .94-1.06, translation +/- .04, flip, brightness .9-1.1",
+    "pretrained_revision": "747cf16692eea925b54b7b543cf436848128b68d"
+  },
+  "experiments": [
+    {
+      "mode": "ce",
+      "epoch": 3,
+      "tta": "single",
+      "accuracy": 0.8315319548872181,
+      "macro_f1": 0.824601655903435,
+      "nll": 0.4980648159980774,
+      "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42\\best.pt",
+      "run": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42",
+      "full": false,
+      "elapsed_seconds": 1139.3017089366913,
+      "completed": true
+    },
+    {
+      "mode": "supcon",
+      "epoch": 3,
+      "tta": "single",
+      "accuracy": 0.831296992481203,
+      "macro_f1": 0.8243726494430085,
+      "nll": 0.4984348714351654,
+      "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_supcon_holdout_s42\\best.pt",
+      "run": "D:\\FER2026task2\\runs\\dima_ft_supcon_holdout_s42",
+      "full": false,
+      "elapsed_seconds": 1181.5569162368774,
+      "completed": true
+    }
+  ],
+  "selected": {
+    "mode": "ce",
+    "epoch": 3,
+    "tta": "single",
+    "accuracy": 0.8315319548872181,
+    "macro_f1": 0.824601655903435,
+    "nll": 0.4980648159980774,
+    "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42\\best.pt",
+    "run": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42",
+    "full": false,
+    "elapsed_seconds": 1139.3017089366913,
+    "completed": true
+  },
+  "selected_metrics": {
+    "accuracy": 0.8315319548872181,
+    "macro_f1": 0.824601655903435,
+    "nll": 0.4980648159980774
+  },
+  "final_checkpoint_paths": [
+    "D:\\FER2026task2\\pretrained\\hf_dima\\model.safetensors",
+    "D:\\FER2026task2\\runs\\dima_ft_ce_full_s42\\best.pt"
+  ],
+  "full_refit": true,
+  "source_image_overlap_possible": true,
+  "note": "Local validation, not Kaggle or independent generalization; source overlap accepted by user."
+}

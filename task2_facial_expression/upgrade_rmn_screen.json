@@ -1,0 +1,14 @@
+{
+  "kind": "rmn",
+  "single": {
+    "accuracy": 0.4755639097744361,
+    "macro_f1": 0.4391199296341739,
+    "nll": 1.826398253440857
+  },
+  "flip": {
+    "accuracy": 0.4870770676691729,
+    "macro_f1": 0.44858245475783765,
+    "nll": 1.7342606782913208
+  },
+  "note": "Frozen pretrained checkpoint on fixed holdout; source overlap possible; not Kaggle score"
+}

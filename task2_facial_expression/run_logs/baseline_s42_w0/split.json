@@ -1,0 +1,35 @@
+{
+  "label_mapping": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "train_total": 28275,
+  "holdout_train": 24019,
+  "holdout_val": 4256,
+  "train_counts": [
+    3371,
+    3478,
+    6105,
+    4133,
+    2714,
+    4218
+  ],
+  "val_counts": [
+    592,
+    619,
+    1087,
+    729,
+    488,
+    741
+  ],
+  "test_total": 7065,
+  "split_seed": 42,
+  "folds_trained": 0,
+  "split_policy": "one 15% stratified pixel-hash-group holdout",
+  "split_sha256": "98330b02dbddde540a30374327a56452d97464f8a89d1cd06e3af176f9a7a6d4",
+  "source_zip_sha256": "d4ef90c8ab61426656ea93aa6daff3ca8d2cc1b91e64bfa5e9b1eb74d1437372"
+}

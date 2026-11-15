@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "rows": 20,
+  "sha256": "753ad2d2ec9f1e4c828b1908f61aacb0387c124897e6aeb060ddaa2591cc418e",
+  "selected": {
+    "alpha": 0.5,
+    "threshold": 0.275,
+    "dice": 0.8504923728350195
+  },
+  "baseline_v4_validation": 0.8452916748701096,
+  "delta_validation": 0.005200697964909962,
+  "weights_sha256": "904c8c20ba38ff23f4350454349ce92e1cb7bbbcefe214243d3f458ecc8f3338",
+  "geometry": "crop known 14px padded input margin at 1472 decoder grid",
+  "rule": "alpha*open_model_confidence+(1-alpha)*V4_confidence",
+  "foreground": "white vessels",
+  "official_and_independent_RLE_match": true,
+  "kaggle_uploaded": false,
+  "online_score": null
+}

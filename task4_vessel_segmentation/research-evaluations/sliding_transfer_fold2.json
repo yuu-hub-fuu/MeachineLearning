@@ -1,0 +1,8 @@
+{
+  "family": "transfer",
+  "fold": 2,
+  "patch": 160,
+  "checkpoint_step": 1600,
+  "whole_dice": 0.8168989896200862,
+  "tiled_dice": 0.8168025211037978
+}

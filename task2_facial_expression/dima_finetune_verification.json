@@ -1,0 +1,14 @@
+{
+  "frozen_embedding_unchanged": true,
+  "last_transformer_block_updated": true,
+  "delta_reload_exact": true,
+  "loss_finite": true,
+  "peak_gpu_gb": 1.506212352,
+  "seconds": 1.5821046829223633,
+  "supcon_official_loss_difference": 0.0,
+  "supcon_official_gradient_max_difference": 1.30385160446167e-08,
+  "identical_views_js": 0.0,
+  "reference": "https://github.com/HobbitLong/SupContrast/blob/master/losses.py",
+  "smoke_batch_images": 16,
+  "production_batch_images": 32
+}

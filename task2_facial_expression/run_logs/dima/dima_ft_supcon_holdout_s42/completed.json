@@ -1,0 +1,13 @@
+{
+  "mode": "supcon",
+  "epoch": 3,
+  "tta": "single",
+  "accuracy": 0.831296992481203,
+  "macro_f1": 0.8243726494430085,
+  "nll": 0.4984348714351654,
+  "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_supcon_holdout_s42\\best.pt",
+  "run": "D:\\FER2026task2\\runs\\dima_ft_supcon_holdout_s42",
+  "full": false,
+  "elapsed_seconds": 1181.5569162368774,
+  "completed": true
+}

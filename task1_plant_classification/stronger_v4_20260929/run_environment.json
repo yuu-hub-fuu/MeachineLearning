@@ -1,0 +1,19 @@
+{
+  "python": "3.13.7",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124",
+    "open_clip_torch": "3.3.0",
+    "timm": "1.0.29",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0"
+  },
+  "source_sha256": {
+    "plant_bioclip_lpft.py": "21e24a693caf16866c39431b330f0d56f258460712a778bda647528aa24e9f43",
+    "plant_bioclip_probe.py": "382967f4c7f8a55158b947c8d863a528f532449903223195501ec0ac3c89b58e",
+    "plant_finetune.py": "91e55aa6cd5a7022659303716c729cd0502f6e5e344d4debf49fa6a1d73c3415",
+    "select_plant_v4.py": "b74499e988bde098e046d7f143aa29cd4af2c075c35b9669d0fb0416b3359cb1",
+    "plant_v4_kernel.py": "700806441773e02a2b5288bd5ec7862b1bf1ec4cdb70f5da03b011f976ed8c62"
+  },
+  "bio_lpft_status": "in_progress"
+}

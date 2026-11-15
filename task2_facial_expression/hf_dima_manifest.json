@@ -1,0 +1,54 @@
+{
+  "kind": "hf_dima",
+  "repo": "dima806/facial_emotions_image_detection",
+  "revision": "747cf16692eea925b54b7b543cf436848128b68d",
+  "bytes": 343239356,
+  "sha256": "ffad6b9e5cb20d4857f4b532c2543055d7d0e7e1422ab7469087edaab82f8dd8",
+  "path": "D:\\FER2026task2\\pretrained\\hf_dima\\model.safetensors",
+  "status": "verified",
+  "id2label": {
+    "0": "sad",
+    "1": "disgust",
+    "2": "angry",
+    "3": "neutral",
+    "4": "fear",
+    "5": "surprise",
+    "6": "happy"
+  },
+  "preprocessor": {
+    "_valid_processor_keys": [
+      "images",
+      "do_resize",
+      "size",
+      "resample",
+      "do_rescale",
+      "rescale_factor",
+      "do_normalize",
+      "image_mean",
+      "image_std",
+      "return_tensors",
+      "data_format",
+      "input_data_format"
+    ],
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "ViTImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 2,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "height": 224,
+      "width": 224
+    }
+  }
+}

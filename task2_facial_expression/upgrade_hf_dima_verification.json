@@ -1,0 +1,67 @@
+{
+  "kind": "hf_dima",
+  "loaded_tensors": 200,
+  "excluded_training_only_tensors": 0,
+  "source_class_order": [
+    "sad",
+    "disgust",
+    "angry",
+    "neutral",
+    "fear",
+    "surprise",
+    "happy"
+  ],
+  "selected_rows": [
+    2,
+    4,
+    6,
+    0,
+    5,
+    3
+  ],
+  "original_head_matches_identity_adapter": true,
+  "supcon_gradients_finite": true,
+  "training_only_sample_indices": [
+    0,
+    1,
+    3963,
+    3965,
+    8060,
+    8061,
+    20211,
+    20212,
+    25073,
+    25074,
+    15252,
+    15253
+  ],
+  "sample_predictions": [
+    0,
+    0,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5
+  ],
+  "sample_labels": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5
+  ],
+  "note": "12-image implementation smoke check, not an accuracy estimate"
+}

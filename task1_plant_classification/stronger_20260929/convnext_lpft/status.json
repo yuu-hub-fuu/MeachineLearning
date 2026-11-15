@@ -1,0 +1,9 @@
+{
+  "status": "stopped_after_two_completed_folds",
+  "completed_fold_accuracies": [
+    0.92,
+    0.88
+  ],
+  "reason": "Both first two completed folds underperform corresponding frozen DINO baselines; redirect GPU to DINO-L adaptation. Not a five-fold result.",
+  "unfinished_fold": 3
+}

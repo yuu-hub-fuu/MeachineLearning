@@ -1,0 +1,9 @@
+{
+  "file": "baseline_vitl_submission.csv",
+  "sha256": "44dd00dc5b9f637625249c922f7e8aed09572cb928ae874e9f21c0d2978cad04",
+  "user_reported_public_score": 0.93,
+  "exact_score_unknown": true,
+  "confirmed_by_user": "2026-09-29",
+  "source": "user confirmed previous ViT-L submission.csv",
+  "baseline_nested_cv": 0.944
+}

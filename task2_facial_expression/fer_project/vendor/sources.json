@@ -1,0 +1,62 @@
+[
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\qcs\\ir50.py",
+    "url": "https://raw.githubusercontent.com/birdwcp/QCS/main/models/ir50.py",
+    "sha256": "1aadde4cc87ab5d8d3e73b98e00211db2fa4a9b9b73233e5deaa2f6edc3d3c24"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\qcs\\vit_model_8cls.py",
+    "url": "https://raw.githubusercontent.com/birdwcp/QCS/main/models/vit_model_8cls.py",
+    "sha256": "4380b0215810ddfd706aac2d0ad770cc20b3e94de03c39b84a68ed0cddf6a5c8"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\qcs\\LICENSE",
+    "url": "https://raw.githubusercontent.com/birdwcp/QCS/main/LICENSE",
+    "sha256": "2e4bdcdc2cd8e5ecad8991be984ec0487f9df6b2d6ddb028f7ac8130a109742a"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\rmn\\resmasking.py",
+    "url": "https://raw.githubusercontent.com/phamquiluan/ResidualMaskingNetwork/master/rmn/models/resmasking.py",
+    "sha256": "328f7a409f2ec33ef6374c70a635b150a56664cd3c62c231de59095b172b1fdc"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\rmn\\masking.py",
+    "url": "https://raw.githubusercontent.com/phamquiluan/ResidualMaskingNetwork/master/rmn/models/masking.py",
+    "sha256": "2ce98f63e2c948d2965ed167a228546cf911db826a23e9228ac33d78c533765a"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\rmn\\resnet.py",
+    "url": "https://raw.githubusercontent.com/phamquiluan/ResidualMaskingNetwork/master/rmn/models/resnet.py",
+    "sha256": "578ed048556e24f1e1e3d4d58e7c861a2ffaa325745bf2ec57144581d9f8f660"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\rmn\\utils.py",
+    "url": "https://raw.githubusercontent.com/phamquiluan/ResidualMaskingNetwork/master/rmn/models/utils.py",
+    "sha256": "22753c30d008b6934329067a2d2770b3df7a9867878ae87f95f1109936038407"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\rmn\\_utils.py",
+    "url": "https://raw.githubusercontent.com/phamquiluan/ResidualMaskingNetwork/master/rmn/models/_utils.py",
+    "sha256": "88ee0bebdabbe770da5d1206c1e072c17b702ba3fb9d4ec05f5f805067a4f06c"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\outputs\\fer_project\\vendor\\rmn\\LICENSE",
+    "url": "https://raw.githubusercontent.com/phamquiluan/ResidualMaskingNetwork/master/LICENSE",
+    "sha256": "3a08523c293056391f2e03b2aac8f577eb4cbf964f49d4298e3adb2a3ff88a1c"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\work\\references\\upgrade\\NLA_src_dataset.py",
+    "url": "https://raw.githubusercontent.com/jungyu0413/NLA/main/src/dataset.py",
+    "sha256": "46daf57ba64dd365b42af06c6072ed4931720fec362c93df1de444ed56248d27"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\work\\references\\upgrade\\QCS_data_processing_dataset.py",
+    "url": "https://raw.githubusercontent.com/birdwcp/QCS/main/data_processing/dataset.py",
+    "sha256": "a8604221b55373f85985dfefaf3f6da988288ae37183717a2c515167b284d8f8"
+  },
+  {
+    "path": "C:\\Users\\gjy10\\Documents\\Codex\\2026-10-18\\rules-2026-10-18-23-59\\work\\references\\upgrade\\QCS_utils.py",
+    "url": "https://raw.githubusercontent.com/birdwcp/QCS/main/utils.py",
+    "sha256": "b1b4592f9c502fb24e8eefd373828b4e53f26018b8fc39f3973767933f3a8af7"
+  }
+]

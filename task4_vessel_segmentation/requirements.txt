@@ -1,0 +1,7 @@
+# Tested with Python 3.13 and CUDA-capable PyTorch.
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.3.5
+Pillow==11.3.0
+pandas==3.0.5
+scipy==1.18.1

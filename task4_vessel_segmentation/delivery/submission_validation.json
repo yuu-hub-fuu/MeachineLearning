@@ -1,0 +1,114 @@
+{
+  "valid": true,
+  "rows": 20,
+  "shape": [
+    512,
+    512
+  ],
+  "foreground": "vessels; actual supplied white labels",
+  "order": "sample_submission.csv",
+  "encoding": "official unmodified script; one-based row-major; nonzero pixels",
+  "images": [
+    {
+      "id": "1",
+      "vessel_fraction": 0.12655258178710938,
+      "runs": 3825
+    },
+    {
+      "id": "2",
+      "vessel_fraction": 0.12111663818359375,
+      "runs": 4213
+    },
+    {
+      "id": "3",
+      "vessel_fraction": 0.11835479736328125,
+      "runs": 3783
+    },
+    {
+      "id": "4",
+      "vessel_fraction": 0.12400436401367188,
+      "runs": 4186
+    },
+    {
+      "id": "5",
+      "vessel_fraction": 0.13354873657226562,
+      "runs": 4125
+    },
+    {
+      "id": "6",
+      "vessel_fraction": 0.13080215454101562,
+      "runs": 4388
+    },
+    {
+      "id": "7",
+      "vessel_fraction": 0.1389312744140625,
+      "runs": 5223
+    },
+    {
+      "id": "8",
+      "vessel_fraction": 0.13106155395507812,
+      "runs": 4408
+    },
+    {
+      "id": "9",
+      "vessel_fraction": 0.13620758056640625,
+      "runs": 5008
+    },
+    {
+      "id": "10",
+      "vessel_fraction": 0.12899017333984375,
+      "runs": 4545
+    },
+    {
+      "id": "11",
+      "vessel_fraction": 0.115142822265625,
+      "runs": 4373
+    },
+    {
+      "id": "12",
+      "vessel_fraction": 0.11648941040039062,
+      "runs": 4195
+    },
+    {
+      "id": "13",
+      "vessel_fraction": 0.15295791625976562,
+      "runs": 4973
+    },
+    {
+      "id": "14",
+      "vessel_fraction": 0.12964248657226562,
+      "runs": 4514
+    },
+    {
+      "id": "15",
+      "vessel_fraction": 0.14892959594726562,
+      "runs": 4901
+    },
+    {
+      "id": "16",
+      "vessel_fraction": 0.12414932250976562,
+      "runs": 4631
+    },
+    {
+      "id": "17",
+      "vessel_fraction": 0.13944625854492188,
+      "runs": 4985
+    },
+    {
+      "id": "18",
+      "vessel_fraction": 0.14378738403320312,
+      "runs": 5126
+    },
+    {
+      "id": "19",
+      "vessel_fraction": 0.12685012817382812,
+      "runs": 4598
+    },
+    {
+      "id": "20",
+      "vessel_fraction": 0.12001800537109375,
+      "runs": 4046
+    }
+  ],
+  "sha256": "bcae8fcb1208f14c8f79abedb586fbdd015b6ef924056d3ab22f5c8ca4c2e17a"
+}

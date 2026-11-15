@@ -1,0 +1,14 @@
+{
+  "kind": "hf_dima",
+  "single": {
+    "accuracy": 0.8197838345864662,
+    "macro_f1": 0.8125589143210248,
+    "nll": 0.5258791446685791
+  },
+  "flip": {
+    "accuracy": 0.8139097744360902,
+    "macro_f1": 0.8066739008116733,
+    "nll": 0.5373562574386597
+  },
+  "note": "Frozen pretrained checkpoint on fixed holdout; source overlap possible; not Kaggle score"
+}

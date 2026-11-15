@@ -1,0 +1,35 @@
+{
+  "kind": "hf_trpakov",
+  "repo": "trpakov/vit-face-expression",
+  "revision": "ef0bc6fc34241b6587e7e009e7711357be28c024",
+  "bytes": 343239356,
+  "sha256": "48acf03b1fd90ea45c5e91eb3be2f364cee1c1342639962bd4eae1eac2ad2f93",
+  "path": "D:\\FER2026task2\\pretrained\\hf_trpakov\\model.safetensors",
+  "status": "verified",
+  "id2label": {
+    "0": "angry",
+    "1": "disgust",
+    "2": "fear",
+    "3": "happy",
+    "4": "neutral",
+    "5": "sad",
+    "6": "surprise"
+  },
+  "preprocessor": {
+    "do_normalize": true,
+    "do_resize": true,
+    "feature_extractor_type": "ViTFeatureExtractor",
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 2,
+    "size": 224
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "folds": [
+    2
+  ],
+  "steps": 2600,
+  "stop_at": 1200,
+  "batch": 8,
+  "patch": 128,
+  "scale": 2,
+  "lr": 0.0007,
+  "resume": false,
+  "fold": 2,
+  "seed": 20261303,
+  "train_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "14",
+    "15",
+    "16",
+    "18",
+    "19",
+    "20"
+  ],
+  "valid_ids": [
+    "10",
+    "12",
+    "13",
+    "17"
+  ],
+  "training_target": "supplied native binary 584x565 masks; no label resize",
+  "validation_operator": "native sigmoid >=0.5, binary PNG, PIL bilinear512, >0",
+  "script_sha256": "49d39baed58b154559f545e35307d98f1e5ff2cdb793107753b02606d60b1718",
+  "architecture_sha256": "7c26319dc2acce7df8acc3b0847b4f96c5b11d4d6c34610003a0e99ca18a700f",
+  "no_external_data_or_weights": true
+}

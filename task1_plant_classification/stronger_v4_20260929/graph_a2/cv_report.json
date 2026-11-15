@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.958,
+  "fold_scores": [
+    0.96,
+    0.94,
+    0.96,
+    0.96,
+    0.97
+  ],
+  "alpha": 0.2,
+  "k": 5,
+  "temperature": 0.1,
+  "iterations": 100,
+  "tolerance": 1e-08,
+  "note": "Fixed clamped graph adaptation, transductive unlabeled queries; no query labels in refinement. Not a paper reproduction."
+}

@@ -1,0 +1,18 @@
+{
+  "baseline_v2": {
+    "fn_core": 38279,
+    "fn_added_boundary": 76118,
+    "fp": 99597,
+    "tp": 560216
+  },
+  "v4": {
+    "fn_core": 39386,
+    "fn_added_boundary": 68364,
+    "fp": 97693,
+    "tp": 566863
+  },
+  "thin_centerline_total": 98773,
+  "thin_centerline_recall_v2": 0.8062729693337248,
+  "thin_centerline_recall_v4": 0.7956526581150719,
+  "note": "Conditional diagnostic on the same model-selection OOF images; not an independent causal ablation."
+}

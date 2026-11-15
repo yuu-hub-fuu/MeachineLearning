@@ -1,0 +1,295 @@
+{
+  "results": [
+    {
+      "variant": "baseline",
+      "name": "baseline_s42_w0",
+      "accuracy": 0.7091165413533834,
+      "macro_f1": 0.6863051222616093,
+      "best_epoch": 12,
+      "elapsed_seconds": 1072.1914737224579
+    },
+    {
+      "variant": "local",
+      "name": "local_s42_w0",
+      "accuracy": 0.7081766917293233,
+      "macro_f1": 0.685604046827562,
+      "best_epoch": 11,
+      "elapsed_seconds": 1052.7872579097748
+    },
+    {
+      "variant": "scn",
+      "name": "scn_s42_w0",
+      "accuracy": 0.7077067669172933,
+      "macro_f1": 0.6857381403621324,
+      "best_epoch": 11,
+      "elapsed_seconds": 1049.8063671588898
+    }
+  ],
+  "selection_rule": "best validation TTA accuracy; equal top-2 ensemble only if gain >=0.25 percentage points",
+  "top2_ensemble_validation_accuracy": 0.7105263157894737,
+  "selected_variants": [
+    "baseline"
+  ],
+  "single_seed": 42,
+  "cross_validation": false,
+  "metric_note": "held-out training subset; not Kaggle score",
+  "final_runs": [
+    "baseline_s42_w0"
+  ],
+  "submission_rows": 7065,
+  "completed": true,
+  "full_refit": true,
+  "priority_note": "Strong pretrained feature adaptation takes priority; unrun B0 variants are not completed results.",
+  "dima_finetune": {
+    "completed": true,
+    "config": {
+      "seed": 42,
+      "epochs": 5,
+      "patience": 3,
+      "batch_images": 32,
+      "accumulation": 1,
+      "unfrozen_blocks": 4,
+      "backbone_lr": 3e-06,
+      "head_lr": 3e-05,
+      "projection_lr": 0.0001,
+      "weight_decay": 0.01,
+      "label_smoothing": 0.02,
+      "supcon_weight": 0.03,
+      "js_weight": 0.1,
+      "temperature": 0.1,
+      "source_image_overlap_possible": true,
+      "minimum_gain": 0.0025,
+      "augmentation": "independent views: +/-8deg, scale .94-1.06, translation +/- .04, flip, brightness .9-1.1",
+      "pretrained_revision": "747cf16692eea925b54b7b543cf436848128b68d"
+    },
+    "experiments": [
+      {
+        "mode": "ce",
+        "epoch": 3,
+        "tta": "single",
+        "accuracy": 0.8315319548872181,
+        "macro_f1": 0.824601655903435,
+        "nll": 0.4980648159980774,
+        "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42\\best.pt",
+        "run": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42",
+        "full": false,
+        "elapsed_seconds": 1139.3017089366913,
+        "completed": true
+      },
+      {
+        "mode": "supcon",
+        "epoch": 3,
+        "tta": "single",
+        "accuracy": 0.831296992481203,
+        "macro_f1": 0.8243726494430085,
+        "nll": 0.4984348714351654,
+        "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_supcon_holdout_s42\\best.pt",
+        "run": "D:\\FER2026task2\\runs\\dima_ft_supcon_holdout_s42",
+        "full": false,
+        "elapsed_seconds": 1181.5569162368774,
+        "completed": true
+      }
+    ],
+    "selected": {
+      "mode": "ce",
+      "epoch": 3,
+      "tta": "single",
+      "accuracy": 0.8315319548872181,
+      "macro_f1": 0.824601655903435,
+      "nll": 0.4980648159980774,
+      "checkpoint": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42\\best.pt",
+      "run": "D:\\FER2026task2\\runs\\dima_ft_ce_holdout_s42",
+      "full": false,
+      "elapsed_seconds": 1139.3017089366913,
+      "completed": true
+    },
+    "selected_metrics": {
+      "accuracy": 0.8315319548872181,
+      "macro_f1": 0.824601655903435,
+      "nll": 0.4980648159980774
+    },
+    "final_checkpoint_paths": [
+      "D:\\FER2026task2\\pretrained\\hf_dima\\model.safetensors",
+      "D:\\FER2026task2\\runs\\dima_ft_ce_full_s42\\best.pt"
+    ],
+    "full_refit": true,
+    "source_image_overlap_possible": true,
+    "note": "Local validation, not Kaggle or independent generalization; source overlap accepted by user."
+  },
+  "final_validation_accuracy": 0.8315319548872181,
+  "final_validation_macro_f1": 0.824601655903435,
+  "dima_tta": {
+    "completed": true,
+    "baseline": {
+      "accuracy": 0.8315319548872181,
+      "macro_f1": 0.824601655903435,
+      "nll": 0.4980648159980774
+    },
+    "candidates": [
+      {
+        "config": {
+          "name": "reliable_entropy_ln",
+          "objective": "reliable_entropy",
+          "lr": 0.001,
+          "steps": 2,
+          "batch": 16
+        },
+        "metrics": {
+          "accuracy": 0.8197838345864662,
+          "macro_f1": 0.8115560262434401,
+          "nll": 0.5382439494132996
+        },
+        "unadapted_same_batch_metrics": {
+          "accuracy": 0.831766917293233,
+          "macro_f1": 0.8248438802766284,
+          "nll": 0.49790719151496887
+        },
+        "stats": {
+          "parameters": 13824,
+          "parameter_names": [
+            "vit.encoder.layer.8.layernorm_before.weight",
+            "vit.encoder.layer.8.layernorm_before.bias",
+            "vit.encoder.layer.8.layernorm_after.weight",
+            "vit.encoder.layer.8.layernorm_after.bias",
+            "vit.encoder.layer.9.layernorm_before.weight",
+            "vit.encoder.layer.9.layernorm_before.bias",
+            "vit.encoder.layer.9.layernorm_after.weight",
+            "vit.encoder.layer.9.layernorm_after.bias",
+            "vit.encoder.layer.10.layernorm_before.weight",
+            "vit.encoder.layer.10.layernorm_before.bias",
+            "vit.encoder.layer.10.layernorm_after.weight",
+            "vit.encoder.layer.10.layernorm_after.bias",
+            "vit.encoder.layer.11.layernorm_before.weight",
+            "vit.encoder.layer.11.layernorm_before.bias",
+            "vit.encoder.layer.11.layernorm_after.weight",
+            "vit.encoder.layer.11.layernorm_after.bias",
+            "vit.layernorm.weight",
+            "vit.layernorm.bias"
+          ],
+          "eligible_samples_steps": 5958,
+          "skipped_steps": 0,
+          "episodes": 266,
+          "max_parameter_change": 0.0020014047622680664,
+          "shuffle_seed": 42,
+          "reset_each_batch": true,
+          "seconds": 56.36487102508545,
+          "reset_verified": true,
+          "classification_head_unchanged": true
+        }
+      },
+      {
+        "config": {
+          "name": "memo_ln_small",
+          "objective": "memo",
+          "lr": 0.0001,
+          "steps": 2,
+          "batch": 16
+        },
+        "metrics": {
+          "accuracy": 0.831062030075188,
+          "macro_f1": 0.8241446643183284,
+          "nll": 0.4993458092212677
+        },
+        "unadapted_same_batch_metrics": {
+          "accuracy": 0.831766917293233,
+          "macro_f1": 0.8248438802766284,
+          "nll": 0.49790719151496887
+        },
+        "stats": {
+          "parameters": 13824,
+          "parameter_names": [
+            "vit.encoder.layer.8.layernorm_before.weight",
+            "vit.encoder.layer.8.layernorm_before.bias",
+            "vit.encoder.layer.8.layernorm_after.weight",
+            "vit.encoder.layer.8.layernorm_after.bias",
+            "vit.encoder.layer.9.layernorm_before.weight",
+            "vit.encoder.layer.9.layernorm_before.bias",
+            "vit.encoder.layer.9.layernorm_after.weight",
+            "vit.encoder.layer.9.layernorm_after.bias",
+            "vit.encoder.layer.10.layernorm_before.weight",
+            "vit.encoder.layer.10.layernorm_before.bias",
+            "vit.encoder.layer.10.layernorm_after.weight",
+            "vit.encoder.layer.10.layernorm_after.bias",
+            "vit.encoder.layer.11.layernorm_before.weight",
+            "vit.encoder.layer.11.layernorm_before.bias",
+            "vit.encoder.layer.11.layernorm_after.weight",
+            "vit.encoder.layer.11.layernorm_after.bias",
+            "vit.layernorm.weight",
+            "vit.layernorm.bias"
+          ],
+          "eligible_samples_steps": 8512,
+          "skipped_steps": 0,
+          "episodes": 266,
+          "max_parameter_change": 0.00020015239715576172,
+          "shuffle_seed": 42,
+          "reset_each_batch": true,
+          "seconds": 146.59465527534485,
+          "reset_verified": true,
+          "classification_head_unchanged": true
+        }
+      },
+      {
+        "config": {
+          "name": "memo_ln",
+          "objective": "memo",
+          "lr": 0.001,
+          "steps": 2,
+          "batch": 16
+        },
+        "metrics": {
+          "accuracy": 0.8291823308270677,
+          "macro_f1": 0.8218027078546414,
+          "nll": 0.5514060854911804
+        },
+        "unadapted_same_batch_metrics": {
+          "accuracy": 0.831766917293233,
+          "macro_f1": 0.8248438802766284,
+          "nll": 0.49790719151496887
+        },
+        "stats": {
+          "parameters": 13824,
+          "parameter_names": [
+            "vit.encoder.layer.8.layernorm_before.weight",
+            "vit.encoder.layer.8.layernorm_before.bias",
+            "vit.encoder.layer.8.layernorm_after.weight",
+            "vit.encoder.layer.8.layernorm_after.bias",
+            "vit.encoder.layer.9.layernorm_before.weight",
+            "vit.encoder.layer.9.layernorm_before.bias",
+            "vit.encoder.layer.9.layernorm_after.weight",
+            "vit.encoder.layer.9.layernorm_after.bias",
+            "vit.encoder.layer.10.layernorm_before.weight",
+            "vit.encoder.layer.10.layernorm_before.bias",
+            "vit.encoder.layer.10.layernorm_after.weight",
+            "vit.encoder.layer.10.layernorm_after.bias",
+            "vit.encoder.layer.11.layernorm_before.weight",
+            "vit.encoder.layer.11.layernorm_before.bias",
+            "vit.encoder.layer.11.layernorm_after.weight",
+            "vit.encoder.layer.11.layernorm_after.bias",
+            "vit.layernorm.weight",
+            "vit.layernorm.bias"
+          ],
+          "eligible_samples_steps": 8512,
+          "skipped_steps": 0,
+          "episodes": 266,
+          "max_parameter_change": 0.0020014047622680664,
+          "shuffle_seed": 42,
+          "reset_each_batch": true,
+          "seconds": 146.5704746246338,
+          "reset_verified": true,
+          "classification_head_unchanged": true
+        }
+      }
+    ],
+    "adopted": false,
+    "selected_config": null,
+    "selected_metrics": {
+      "accuracy": 0.8315319548872181,
+      "macro_f1": 0.824601655903435,
+      "nll": 0.4980648159980774
+    },
+    "minimum_gain": 0.0025,
+    "source_image_overlap_possible": true,
+    "label_usage": "No labels passed into adaptation. Validation labels used only for configuration selection; test labels unavailable.",
+    "method_scope": "Episodic shuffled batches; last four ViT blocks LayerNorm only. Inspired by MEMO/EATA, not full paper reproductions."
+  }
+}

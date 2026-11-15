@@ -1,0 +1,7 @@
+{
+  "extracted": 225,
+  "reused": 653,
+  "original_data_hash": "14c19089bdd0f95f69ab79e9c19f917525f598807cf100e3d820603b234c17fc",
+  "source": "outputs\\stronger_20260929\\dino_foreground\\features.npz",
+  "unchanged_images_verified_pixel_equal": true
+}

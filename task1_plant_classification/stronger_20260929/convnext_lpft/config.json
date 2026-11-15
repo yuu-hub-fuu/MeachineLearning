@@ -1,0 +1,24 @@
+{
+  "run_dir": "outputs/stronger_20260929/convnext_lpft",
+  "train_dir": "work/task2_dataset/dataset-for-task2/dataset-for-task2/train",
+  "test_dir": "work/task2_dataset/dataset-for-task2/dataset-for-task2/test",
+  "sample": "work/task2_dataset/submission-for-task2.csv",
+  "epochs": 20,
+  "size": 288,
+  "batch_size": 8,
+  "accumulate": 2,
+  "backbone_lr": 5e-05,
+  "head_lr": 0.0005,
+  "classes": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "seed": 42,
+  "folds": 5,
+  "protocol": "fixed final EMA; no outer-val epoch selection",
+  "data_hash": "14c19089bdd0f95f69ab79e9c19f917525f598807cf100e3d820603b234c17fc",
+  "script_hash": "91e55aa6cd5a7022659303716c729cd0502f6e5e344d4debf49fa6a1d73c3415"
+}

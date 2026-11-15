@@ -1,0 +1,16 @@
+{
+  "arm": "plain",
+  "fold": 2,
+  "trained_step": 1200,
+  "best_step": 1000,
+  "dice": 0.8058016067847861,
+  "best_no_tta": 0.8015951131756386,
+  "core_dice": null,
+  "valid_ids": [
+    "10",
+    "12",
+    "13",
+    "17"
+  ],
+  "seconds": 298.09
+}

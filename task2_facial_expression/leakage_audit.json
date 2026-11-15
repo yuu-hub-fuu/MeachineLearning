@@ -1,0 +1,20 @@
+{
+  "train_rows": 24019,
+  "validation_rows": 4256,
+  "test_rows": 7065,
+  "train_validation_index_overlap": 0,
+  "train_validation_exact_pixel_overlap": 0,
+  "provided_train_test_shared_pixel_groups": 490,
+  "test_rows_matching_provided_train": 520,
+  "test_rows_matching_holdout_train": 436,
+  "test_rows_matching_validation": 84,
+  "scope": "decoded exact pixels only; not near duplicates or subject identities",
+  "pretraining_overlap_status": "not_certified; referenced notebook oversamples before splitting",
+  "notebook_url": "https://www.kaggle.com/code/dima806/facial-emotions-image-detection-vit",
+  "notebook_version": 8,
+  "notebook_source_sha256": "d609cd040759697b7b1f8f414d67f6d0a7fdee31cedae97f2377522675b5f859",
+  "dima_native_accuracy": 0.8197838345864662,
+  "dima_linear_accuracy": 0.8235432330827067,
+  "adoption_as_leakage_free_baseline": false,
+  "user_accepted_source_overlap_and_requested_continued_training": true
+}

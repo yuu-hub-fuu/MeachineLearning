@@ -1,0 +1,46 @@
+{
+  "folds": [
+    2
+  ],
+  "steps": 2000,
+  "stop_at": 2000,
+  "batch": 8,
+  "patch": 160,
+  "scale": 2,
+  "lr": 0.001,
+  "seed_offset": 10000,
+  "scratch": false,
+  "resume": false,
+  "fold": 2,
+  "seed": 20271303,
+  "train_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "14",
+    "15",
+    "16",
+    "18",
+    "19",
+    "20"
+  ],
+  "valid_ids": [
+    "10",
+    "12",
+    "13",
+    "17"
+  ],
+  "training_target": "supplied native binary 584x565 masks; no label resize",
+  "validation_operator": "native sigmoid >=0.5, binary PNG, PIL bilinear512, >0",
+  "script_sha256": "4a43271cd165340a454290f77799b1d7f92b997df73ccddf3f14bb84fb6fc066",
+  "model_class": "TransferUNet",
+  "architecture_sha256": "b905ad5868134a660eb78bc99536cb9f41f7348bf0115a6ba86b3423be277ee6",
+  "no_external_retinal_data_or_weights": true
+}

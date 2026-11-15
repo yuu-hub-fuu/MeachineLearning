@@ -1,0 +1,229 @@
+{
+  "selected": {
+    "name": "dino_lpft",
+    "accuracy": 0.96,
+    "log_loss": 0.15307852240211614,
+    "fold_scores": [
+      0.96,
+      0.95,
+      0.96,
+      0.96,
+      0.97
+    ],
+    "fold_sd": 0.007071067811865481,
+    "weights": {
+      "dino_lpft": 1.0
+    }
+  },
+  "candidates": [
+    {
+      "name": "dino_lpft",
+      "accuracy": 0.96,
+      "log_loss": 0.15307852240211614,
+      "fold_scores": [
+        0.96,
+        0.95,
+        0.96,
+        0.96,
+        0.97
+      ],
+      "fold_sd": 0.007071067811865481,
+      "weights": {
+        "dino_lpft": 1.0
+      }
+    },
+    {
+      "name": "augmented_plus_lpft",
+      "accuracy": 0.958,
+      "log_loss": 0.13426395385855058,
+      "fold_scores": [
+        0.96,
+        0.94,
+        0.96,
+        0.95,
+        0.98
+      ],
+      "fold_sd": 0.01483239697419134,
+      "weights": {
+        "dino_augmented_probe": 0.5,
+        "dino_lpft": 0.5
+      }
+    },
+    {
+      "name": "foreground_plus_lpft",
+      "accuracy": 0.958,
+      "log_loss": 0.13518126363811128,
+      "fold_scores": [
+        0.96,
+        0.94,
+        0.96,
+        0.95,
+        0.98
+      ],
+      "fold_sd": 0.01483239697419134,
+      "weights": {
+        "dino_foreground": 0.5,
+        "dino_lpft": 0.5
+      }
+    },
+    {
+      "name": "kernel_plus_lpft",
+      "accuracy": 0.956,
+      "log_loss": 0.16045203670340086,
+      "fold_scores": [
+        0.97,
+        0.94,
+        0.95,
+        0.95,
+        0.97
+      ],
+      "fold_sd": 0.01341640786499875,
+      "weights": {
+        "dino_kernel_probe": 0.5,
+        "dino_lpft": 0.5
+      }
+    },
+    {
+      "name": "dino_augmented_probe",
+      "accuracy": 0.952,
+      "log_loss": 0.16150766740560993,
+      "fold_scores": [
+        0.96,
+        0.94,
+        0.94,
+        0.95,
+        0.97
+      ],
+      "fold_sd": 0.013038404810405309,
+      "weights": {
+        "dino_augmented_probe": 1.0
+      }
+    },
+    {
+      "name": "dino_foreground",
+      "accuracy": 0.948,
+      "log_loss": 0.20034234404378704,
+      "fold_scores": [
+        0.96,
+        0.93,
+        0.93,
+        0.95,
+        0.97
+      ],
+      "fold_sd": 0.017888543819998277,
+      "weights": {
+        "dino_foreground": 1.0
+      }
+    },
+    {
+      "name": "dino_kernel_probe",
+      "accuracy": 0.946,
+      "log_loss": 0.18285665482348304,
+      "fold_scores": [
+        0.95,
+        0.93,
+        0.94,
+        0.95,
+        0.96
+      ],
+      "fold_sd": 0.011401754250991351,
+      "weights": {
+        "dino_kernel_probe": 1.0
+      }
+    }
+  ],
+  "changed_test_predictions": 14,
+  "paired_reference": {
+    "reference": "old feature recipe, fixed C=10 refit on identical five folds",
+    "reference_accuracy": 0.946,
+    "corrected": 12,
+    "newly_wrong": 5,
+    "both_wrong": 15
+  },
+  "rows": 378,
+  "sha256": "88e0830d1743da1cf3f528e6437525b886e903da9905a39fe24a9e53a040a882",
+  "confusion_matrix": [
+    [
+      91,
+      2,
+      7,
+      0,
+      0
+    ],
+    [
+      1,
+      99,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      91,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      99
+    ]
+  ],
+  "classification_report": {
+    "Black-grass": {
+      "precision": 0.900990099009901,
+      "recall": 0.91,
+      "f1-score": 0.9054726368159204,
+      "support": 100.0
+    },
+    "Common wheat": {
+      "precision": 0.9801980198019802,
+      "recall": 0.99,
+      "f1-score": 0.9850746268656716,
+      "support": 100.0
+    },
+    "Loose Silky-bent": {
+      "precision": 0.9285714285714286,
+      "recall": 0.91,
+      "f1-score": 0.9191919191919192,
+      "support": 100.0
+    },
+    "Scentless Mayweed": {
+      "precision": 0.9900990099009901,
+      "recall": 1.0,
+      "f1-score": 0.9950248756218906,
+      "support": 100.0
+    },
+    "Sugar beet": {
+      "precision": 1.0,
+      "recall": 0.99,
+      "f1-score": 0.9949748743718593,
+      "support": 100.0
+    },
+    "accuracy": 0.96,
+    "macro avg": {
+      "precision": 0.95997171145686,
+      "recall": 0.96,
+      "f1-score": 0.959947786573452,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.95997171145686,
+      "recall": 0.96,
+      "f1-score": 0.9599477865734523,
+      "support": 500.0
+    }
+  },
+  "online_score": null,
+  "note": "Selected using reused OOF development estimates; new public score unknown. CNN was stopped after two unsuccessful folds and excluded."
+}

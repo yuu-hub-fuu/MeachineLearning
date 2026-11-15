@@ -1,0 +1,15 @@
+{
+  "best_epoch": 12,
+  "best_accuracy": 0.7058270676691729,
+  "elapsed_seconds": 1072.1914737224579,
+  "submission_rows": 7065,
+  "label_mapping": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "full_train": false
+}

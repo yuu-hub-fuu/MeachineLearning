@@ -1,0 +1,14 @@
+{
+  "arm": "native",
+  "fold": 3,
+  "best_step": 2000,
+  "trained_step": 2000,
+  "dice": 0.8556459548217428,
+  "native_dice": 0.8258898293134062,
+  "valid_ids": [
+    "3",
+    "4",
+    "7",
+    "9"
+  ]
+}

@@ -1,0 +1,861 @@
+{
+  "files": [
+    {
+      "path": "data\\segmentation\\sample_submission.csv",
+      "bytes": 105,
+      "sha256": "0ed0a43bda060a1173b6dec0c5973be32238c7150334aefdc9916f0265827183"
+    },
+    {
+      "path": "data\\segmentation\\segmentation_to_csv.py",
+      "bytes": 2503,
+      "sha256": "ff55cef84f508febe1b86a8f9d353df699b4eaecc33805c56ee0cd1405858cec"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\1.jpg",
+      "bytes": 794588,
+      "sha256": "3088358d3e99d02972b31f04bc0e6d7877fcd68be6c916a5afcc698fa4ae80f0",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "631168376a10028d906a32a2683f8d8289882bd3be812ae49960b51e7c4eccec"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\10.jpg",
+      "bytes": 770200,
+      "sha256": "23c83d21897ffe17dd6052720d086828a659df0182f0a78758bae648a75fd236",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "49e2e9690a8d563837bb2387d3a31387f6560b571d3f167b7384f2671f7c25f5"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\11.jpg",
+      "bytes": 727378,
+      "sha256": "9b76ccad79a46af00155f826b6a7a221cebeccb780b862189ba394f0975ed458",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "be7ca3d1289e7510af698de7cdd28bdc9ec3c6943dd4e6263d3569415c01b1bf"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\12.jpg",
+      "bytes": 735506,
+      "sha256": "cdac465418976e997fcfe92952a27efb3d11dfed41f19edea3b10bf3441f19e5",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "d8ef5d5bb97b73361e8b1c71d3552f7936d08712a91ee1d0234737e5b097b3b2"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\13.jpg",
+      "bytes": 688434,
+      "sha256": "9173dc39ffc62069aa33f91c66ed847cec645d2f108a363e233c25f9c65944a7",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "7cd74d4ec2d79d0b2d4244218073f08a9d75dedac831cb8db2a8672a730c8d0e"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\14.jpg",
+      "bytes": 772684,
+      "sha256": "b081bd205d64f43be5405e490b056ffe3a4c85b6ea72ba055a90a30dfd43bfd2",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "efe51ebae5888359e8c3666aa9945b71129a5b0cf28679993cf91440e443db0a"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\15.jpg",
+      "bytes": 729790,
+      "sha256": "de6b4dc1f72dfdcda32334060b490b2b448f940c654327fcaa6dc98f7c527302",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "c8d50e71e7dec0ff9f279ef3b5ca79d3ab52fc894a015c2ef4cc91a0e5aee8df"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\16.jpg",
+      "bytes": 739874,
+      "sha256": "ba282abe4bd58172e2c06f775cdc8bbf083e32c268e31f7c8ef9018c8f25f196",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "ad79a905cceca977ad8921bfa15596c57a28736125f9102b0be067e0bd5af073"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\17.jpg",
+      "bytes": 718500,
+      "sha256": "53a27860866049c3c1b0ce94c161cca7a2b90c9c5235aa1b0ebd5f46506a4423",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "6278ec295049d04d649c1b21bc3b4f54f95a3e0eee1d23ddf0abf712d7c54c9b"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\18.jpg",
+      "bytes": 734042,
+      "sha256": "2e5b21bd6899f9076edefa322f4d73cf30a20cffc2dd5c9e87e672b8b29e178c",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "cc767c7314d2212467bc9a0708361ecbe42615ecfc99687e69c569439b074634"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\19.jpg",
+      "bytes": 728510,
+      "sha256": "7ed2e06a84e5a311820be03fdd70f52586960026d80f15d24fe36c5fe98cc406",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "d3db1eee81d50e38e4a94cf47fc5c7ec2ee7551a747777861dddbb994693e29a"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\2.jpg",
+      "bytes": 766880,
+      "sha256": "7826c700271fd9372227544a8abe7f5c0d066c1154d5ae356f3cc703c693b0f5",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "ff30cf3e19f5f873af8b620446c2f71525395472a158535ed782639fa08341d8"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\20.jpg",
+      "bytes": 791290,
+      "sha256": "c12254bcdea5fa9dab6e3f1cbf876ed2b94adb6955c81ae75dce92d70ee4725c",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "19f221aae9f7f8fb3ea51737dd9105fd7c9185d523d7847b1ed47fb67d43931b"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\3.jpg",
+      "bytes": 781200,
+      "sha256": "682375268515fed1427adf10332ea3e478f461b107b69a82527fbc3fc659a092",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "747feb7a97a31eb6064d40c235e1a31617c4df3fa9b6bff92b4681f4725e8a33"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\4.jpg",
+      "bytes": 724292,
+      "sha256": "e253a06fdc843fed0cdb8746fb19c1535e70f7b5e9199d4a266fb2b05873a9c0",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "df26c9e70c6b7fbf27b7fe28c45586f2f88a8aad04e034349d6bd8fe7da3baf4"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\5.jpg",
+      "bytes": 744826,
+      "sha256": "d58e5d17769c9136d9cef636501c61457077c6985b5da5c0b1e7b870e93a20a2",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "827205e055cc2d69a5114655bbf0447032673adbb9f39977811ecd1822d3d8d4"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\6.jpg",
+      "bytes": 684762,
+      "sha256": "69383048477e8b73d8592c6ddac8049f5699d4f58df4cbbc1b83b7f2e9fb43de",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "d21d884d7250b26dc277a32a4845557eda606d36e17a1bf7c389bcbd59a818b2"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\7.jpg",
+      "bytes": 727542,
+      "sha256": "5e66d4d531e44f975eb3cf24beef7caee304b7fced4feb1a6ad85f5d54357602",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "29eb569d729df7baa15892b1699971eb5b8637494148ac801c0dcac849f497c6"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\8.jpg",
+      "bytes": 711552,
+      "sha256": "8d6ed7db628b107e0169251dd4c9a36ecb70048d47f3839df21443a0e1760fbd",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "ca6b94c74bffb5e6cfb07ebdfc0d89d0be230a5f6ded6aa4972895c4dee5ad86"
+    },
+    {
+      "path": "data\\segmentation\\test\\image\\9.jpg",
+      "bytes": 745986,
+      "sha256": "4819536826a478a61c22712166949793fc81bd933e2ca99257703b2ee17217bf",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "2a79b23dd5d99c915b12d3767027b4842cb75de851722617d3f90d9fc051ef50"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\1.jpg",
+      "bytes": 784176,
+      "sha256": "4e741535cce29ed5c28ff1f3e51316c3efc471dcbc1ab794a71c0852bdc04e8f",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "bfea22f51645b123c49f96e2031b1e738f6f75d75694cd2457b750f236fab551"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\10.jpg",
+      "bytes": 739210,
+      "sha256": "915f74c3b2512ac842339a82be1e5d26d05ce3f9ee591c849606c9fe3dde4dca",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "de2a2e87eea7ac8ea75be9dda1958700d606f4fa6d136fe8b5c13313707f6157"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\11.jpg",
+      "bytes": 758672,
+      "sha256": "e7af55375ba088ac63db120377eaf94b2405fe80b7874d6e1d236cda4f8c4c83",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "1f85335253132351be931aa365fc5095f8e0b5137351429e0b9829d6f07cc146"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\12.jpg",
+      "bytes": 818982,
+      "sha256": "9c7bd663458a7a8e289c414f624ebc9c8eff672a703a394968fd0e7853eaaafa",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "673b1ea4350c0c79a5a8b47b37ee7abc73ad6ba89567e0d063134110bfb0a40c"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\13.jpg",
+      "bytes": 730206,
+      "sha256": "4ebfe2e985b9459b2ea9fd46d61e608c53a0044217f99126ea0a5706accce9e1",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "211d24d9815a5ce35b700efffd2025796fac552e9fa93e061cd630bd25c5f515"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\14.jpg",
+      "bytes": 798744,
+      "sha256": "de7affead453633b961a8e2525a3a5f22c4d432413ece9480fa3301dffeb9675",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "7dbc26777b4b735f82919a497e1ce9ad53c82853681fb27799907fa14e8e7a76"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\15.jpg",
+      "bytes": 730086,
+      "sha256": "bfbfe78a1015abd460f6d423a3d69d0cd41c38983502f5c6557202e4ff5e06a3",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "1415f13106b7592f2525268f1ebc2be91b886f1dc6e81eeda13b3e398309083e"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\16.jpg",
+      "bytes": 739372,
+      "sha256": "b0dc412fbbe208c47134208f617ec0b630cb6adba794e384fa1b7f9b8217cbc3",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "3eedb8d42267c3b9de10eb23ebac89b8ed14399bc9b8a802cfa25325b6029ffe"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\17.jpg",
+      "bytes": 751306,
+      "sha256": "4fc9bd6642ab205174d4609c10836b2831f3f8aefa5febac1f136273ae4eebd6",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "550296a7663f8aa347797728092aea09e41ace57595cd91131d2ea7114bd5c06"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\18.jpg",
+      "bytes": 749418,
+      "sha256": "5b6a396282615674d0dee65c504ec1ea860a71e127802c743ef3bda9705f9296",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "854444034e316ab2dbbc7843f4b75a44d0724142c58f834bbb524ad80362aa0a"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\19.jpg",
+      "bytes": 722436,
+      "sha256": "544904428f4286cfde44f2f24171c59f1fbc86c00833a4862f31f7eba3c71841",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "333e5dbe0fccde1e252bc45a49a6b7d5e92410a11b85a13e1b6fbfa8869ced5b"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\2.jpg",
+      "bytes": 701824,
+      "sha256": "97b0b7962cbdb6c05c8dc090ef1fe11f4bcc7dda024471ea7521871d97454dfe",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "fa446fb33a7d7eca95077bc6181be18a5792b57069052b47fece668650167b05"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\20.jpg",
+      "bytes": 754614,
+      "sha256": "3ce704a1bc9d1cd82d27817db9ef5e30f030986bb209612139b998792860fbeb",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "ddbb0df2b5487141d90048e8d042be65f845383069f51967ab5cead75593a9ee"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\3.jpg",
+      "bytes": 747538,
+      "sha256": "359626ded5d58eb8c6aa0d71f280e4c90a66189d9d10d8d871d5f3caf7f21929",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "3abc8634b23bbcb53a28df87b91585d9143bff71701b619a715fd76cac2d089d"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\4.jpg",
+      "bytes": 692866,
+      "sha256": "cfaf945b07dc28dc3efe972e0ac353a04053db86f4e8e02ba95b0e1859e8acdb",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "57cecd917edfdd80a751614e72f08db829c7e55bfba8df0805da330848bb573f"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\5.jpg",
+      "bytes": 654844,
+      "sha256": "4d20167c45d4e495bf1aac435c7f611a991fafdbcba8f39f5b2e667f3809c64b",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "f7e9e936887918511a78bc5be2e6521035af7115af14af612c89b57a1709c9ae"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\6.jpg",
+      "bytes": 695020,
+      "sha256": "081db8928e07c9a222b05596f54f60770f37c1cdb39308377b420dc58a49c361",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "b3d148b34c738b79a45691dcc0fceeb83b0e1cd32a7c433bee0275b5e9eb9c60"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\7.jpg",
+      "bytes": 773854,
+      "sha256": "89a2606a6b1f226c53304e7c4148463378e7c8c94631418058812f072a00e7c6",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "29e7405a17ffab1e4b394f7f89264700f015837e900cafa603aa59a0fb18733b"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\8.jpg",
+      "bytes": 703530,
+      "sha256": "713d1764d784ac3351a0ceb18051163991d0b222be875430e7ba54b05b333ac0",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "9851ff7671490894c04ed7a485bc18043719e8c401889d9a3d4bf21a368e0f02"
+    },
+    {
+      "path": "data\\segmentation\\train\\image\\9.jpg",
+      "bytes": 757826,
+      "sha256": "93d377c99a50dd6c0b08c6ff55b4d32bc43cba2b7d65a286bfd0747c4a189a87",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixel_sha256": "e8891dcf058a164f36bd7bfad92214b66efbe0f3948e6473683dd199dd4672f9"
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\1.jpg",
+      "bytes": 11163,
+      "sha256": "95012bee9015a712d3d4014220e4f21eef78dcd942a8acc2fa321b5f8c3bbc4a",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "1accb67f6495991d5396eccfcd196503f8c50572919f738d0cbe5807026d8ce2",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08740756455327918,
+      "official512_vessel_fraction": 0.12908935546875
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\10.jpg",
+      "bytes": 11002,
+      "sha256": "004e501032efe825785b4711ba32fe150a17cede04d37f416961006a0cf84e3f",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "01570a2b089685a09302c06fbdb7ce85e5521df2a7d5be43fd8e9dcc9fb54ed0",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.0817796096496545,
+      "official512_vessel_fraction": 0.12297821044921875
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\11.jpg",
+      "bytes": 10243,
+      "sha256": "8b91ecd3ad91b3d7111f8f22e29913eb69502f8bfd4a1339db6508d73f52b8bb",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "fa8d65fd009ae14e109a1c694c09b457e46da2b2384606ce43a066dcf10554bc",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.07473027033579828,
+      "official512_vessel_fraction": 0.11233139038085938
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\12.jpg",
+      "bytes": 11319,
+      "sha256": "164ecee52bd14ddfe5233ab88b68a1f07399f82428588bfb3866de0f93c0a9f2",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "e97af0790e4e31e8dffce098dcdb721da7c931d50221989604fcc3d38218ded8",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.0978512546975391,
+      "official512_vessel_fraction": 0.1436614990234375
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\13.jpg",
+      "bytes": 12014,
+      "sha256": "a38ad76f19ef68bce461b493f9987142e9185982ee5517ff97cdbb57b7a57420",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "6340cddd0ee48d6ac38cb51756c023fb6ed03274252086da980a0e59994b561e",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08811068008243424,
+      "official512_vessel_fraction": 0.13622665405273438
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\14.jpg",
+      "bytes": 11076,
+      "sha256": "cada33fec4888c95e1bcbde3df7755ef1e289b63c047a57e0ff2d37d04be7168",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "4882a671b0741c5d1f409af61b25234f0bb32957cd5424e4ee77e366d7c8f44b",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08671354103527701,
+      "official512_vessel_fraction": 0.12869644165039062
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\15.jpg",
+      "bytes": 11493,
+      "sha256": "a216ebf019ad018dc897b9c22831f9c428eb51fba73379aa9463001db09846ca",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "b511c07f81af8e2ccabd4bde46084faf203d81bd12befc7c508c653b19c410ee",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08630440053339798,
+      "official512_vessel_fraction": 0.12819671630859375
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\16.jpg",
+      "bytes": 11520,
+      "sha256": "6e91d5b87ab1a73f6f510e86745307a5e0e5af0ca9b8e629e947cc30f4caca07",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "4dac163123c579140c63189c0ffde5a78eee4512fb87f7faec25e09416c3544b",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08410413383440417,
+      "official512_vessel_fraction": 0.12900924682617188
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\17.jpg",
+      "bytes": 12416,
+      "sha256": "3e24a5eab43676e8f9a7149984e4c7477f3b3829c4a5241d733eb43719e67967",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "b3a9d2fff498c319315a053b1a6861018a6b1d51f90f847386fd92cd32620dc2",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.09034125348527094,
+      "official512_vessel_fraction": 0.13748931884765625
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\18.jpg",
+      "bytes": 11650,
+      "sha256": "3440e0be4dce8ec83494d4e0b07a57db9575c0312023d4c98d395f5d217ff7a8",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "c2dd97259fad542ea152cbf841b21c958a13668e3899f82436057e994dabeda0",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.0859134440538247,
+      "official512_vessel_fraction": 0.128387451171875
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\19.jpg",
+      "bytes": 11472,
+      "sha256": "64410317c2f901643da575c7871dc972c9585220466cd81545d30ced922d5159",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "9adf1b750704b52ceb2613fd150ecd558d99fbb29db229bb1becceaa8da6dc0f",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.0959783004000485,
+      "official512_vessel_fraction": 0.13913726806640625
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\2.jpg",
+      "bytes": 10361,
+      "sha256": "e42498f4273217982cd90536d9900cc757a62c8358af0485df716fa89d04407c",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "e80693846ec4b89332b8f83c2702c9e6eb20144024b45e12872c8c8cf5020ac1",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08356467450600073,
+      "official512_vessel_fraction": 0.12136459350585938
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\20.jpg",
+      "bytes": 12427,
+      "sha256": "7469ed6208d32bc150bf66866fdc11d548201585ca32eec3b5130e9cffebb8a7",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "0a43f08c0456fe3408ff7b93ffbf46a742f7d8a640142fa1d5326afb1725db66",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.09767244514486605,
+      "official512_vessel_fraction": 0.14569091796875
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\3.jpg",
+      "bytes": 13145,
+      "sha256": "a048905f16a1c4ed3c62dbc32fad928b13694d17b325352fff03541f852e0045",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "4b7c7ec0575fefa27f76bfcf92e280989b7f80e19f8c46ee51cab501f6a5af82",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.10875257606982665,
+      "official512_vessel_fraction": 0.15726852416992188
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\4.jpg",
+      "bytes": 10663,
+      "sha256": "3f352ec665f77caab4fe806019169d222c1403281ccb9a9be9bf2070fa5c8e89",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "e9e5f43cfe5d3ce16db5aca543a6d19d98ae16cfd6c4cd9f762153267a8ad231",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.07576979027760941,
+      "official512_vessel_fraction": 0.1146087646484375
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\5.jpg",
+      "bytes": 8086,
+      "sha256": "f9fc8da936de5e21effbd66b76f33ea6c529661ad8c49b4314c6a89d907461a0",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "f1e994aba7fa59bd156739ea329bebf317753ec7b247d267a5125d9452337a98",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.06583525275791005,
+      "official512_vessel_fraction": 0.09381484985351562
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\6.jpg",
+      "bytes": 13349,
+      "sha256": "ed400fb8471f272ad5e9d2693336cbedb7c437e299b918edeae8498d07c647fb",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "e5fd11bfb2ee741b7329290c3c17cd726ce52ad12f3307b3f9e3b4eac5195302",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.11585949812098437,
+      "official512_vessel_fraction": 0.16897964477539062
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\7.jpg",
+      "bytes": 8834,
+      "sha256": "b90c0fd6986a7f76861c4d4b2d07aef013f98d4b1ed28d844acbbf81c99de2c4",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "83ccb71924ef196b363f6cf5e47d53474ebc021b66d713de5017c764761b7f69",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.060304279306582616,
+      "official512_vessel_fraction": 0.09291458129882812
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\8.jpg",
+      "bytes": 10564,
+      "sha256": "bdad759b5f833156dcf52115ba77736706d50be3e1d6e44adaf6ef0170d1a4a8",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "bc0f689a52620f4f6d62fc72667b2f74788bfcd4334cbcd7d0cae4dcec4d60c7",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.0784458722269366,
+      "official512_vessel_fraction": 0.12096786499023438
+    },
+    {
+      "path": "data\\segmentation\\train\\label\\9.jpg",
+      "bytes": 11285,
+      "sha256": "5d49c2449fcd341cb762928cad0dbcbca4e695a48643152f1acc8c5670d3add9",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "format": "GIF",
+      "pixel_sha256": "23edd154031735fb94954b85da438c12f660b8cc542a7c1b2d70c360c671633a",
+      "values": [
+        0,
+        255
+      ],
+      "native_vessel_fraction": 0.08087646987513639,
+      "official512_vessel_fraction": 0.12263107299804688
+    }
+  ],
+  "pixel_duplicates": [],
+  "zip_sha256": "6f6e36243092f4cf55c1be4ae7c5227e3c3686501e25487ada7ef03fa9b7634a",
+  "official_target_roundtrip_labels": 20,
+  "synthetic_cases": 3,
+  "invalid_cases": 7,
+  "fold_coverage": 20,
+  "valid": true
+}

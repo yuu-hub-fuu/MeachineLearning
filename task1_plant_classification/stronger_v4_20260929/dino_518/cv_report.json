@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.95,
+  "fold_scores": [
+    0.96,
+    0.94,
+    0.95,
+    0.95,
+    0.95
+  ],
+  "size": 518,
+  "checkpoint_run": "outputs\\stronger_20260929\\dino_lpft",
+  "data_hash": "14c19089bdd0f95f69ab79e9c19f917525f598807cf100e3d820603b234c17fc",
+  "views": 8,
+  "note": "Five held-out folds; test predictions average all five checkpoint models."
+}

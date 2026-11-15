@@ -1,0 +1,10 @@
+{
+  "plant_classifier.py": "b59c950baf098faedbed1064cfc2b1202100b850975910ac962fbcb65627cf4a",
+  "plant_dino_lpft.py": "9c7bd1d69ec6fd1e5a9f2bf3251573e396489efc9a6e123588a5feacf7a8bbc6",
+  "plant_finetune.py": "91e55aa6cd5a7022659303716c729cd0502f6e5e344d4debf49fa6a1d73c3415",
+  "plant_kernel_probe.py": "6a192663eed0d3da4a47f5cf83b9fd679f4e75caaffd1802f98ee66dbc76112c",
+  "plant_v3_features.py": "62bc6bd779c961b896d623071304d8b5fe8673f5f65b87c09deb89c349aee9d0",
+  "plant_v3_multiview.py": "b8d09abde096d3782c1d506588348b5f9389ba9cb0ace3be6963dd05441a217c",
+  "select_plant_submission.py": "be66f37ebb0dc7ec5e5d5e763c53a1250e2e5cc6512e59af558715e9ab90e0f0",
+  "predict_plant_dino.py": "18e5e3542626a2a680660294c52f781ea1b00463c72f33ad76e8faddacec170c"
+}

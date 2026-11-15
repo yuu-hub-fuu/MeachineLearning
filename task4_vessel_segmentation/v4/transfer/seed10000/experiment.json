@@ -1,0 +1,23 @@
+{
+  "architecture": "TransferUNet with ResNet18 encoder and full-resolution branch",
+  "initialization": "official ImageNet-1K ResNet18, SHA256 verified",
+  "encoder_lr_scale": 0.1,
+  "encoder_batchnorm": "frozen running stats, affine parameters trainable",
+  "target": "native binary vessels; submitted-mask operator applied only at validation/export",
+  "args": {
+    "folds": [
+      2
+    ],
+    "steps": 2000,
+    "stop_at": 2000,
+    "batch": 8,
+    "patch": 160,
+    "scale": 2,
+    "lr": 0.001,
+    "seed_offset": 10000,
+    "scratch": false,
+    "resume": false
+  },
+  "script_sha256": "b905ad5868134a660eb78bc99536cb9f41f7348bf0115a6ba86b3423be277ee6",
+  "runtime_sha256": "4a43271cd165340a454290f77799b1d7f92b997df73ccddf3f14bb84fb6fc066"
+}

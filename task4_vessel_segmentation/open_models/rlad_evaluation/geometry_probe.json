@@ -1,0 +1,122 @@
+[
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.001,
+    "dice": 0.5206575112401874,
+    "area": 0.17086009979248046
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.005,
+    "dice": 0.5428442814721648,
+    "area": 0.13708209991455078
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.01,
+    "dice": 0.5436515408682079,
+    "area": 0.12929553985595704
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.025,
+    "dice": 0.5411505673067166,
+    "area": 0.12164802551269531
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.05,
+    "dice": 0.5370148866334636,
+    "area": 0.11674671173095703
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.1,
+    "dice": 0.5313007512248932,
+    "area": 0.11195812225341797
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.2,
+    "dice": 0.5231349723227362,
+    "area": 0.1066671371459961
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.3,
+    "dice": 0.5164710838784575,
+    "area": 0.10294895172119141
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.5,
+    "dice": 0.5042481486224895,
+    "area": 0.09684333801269532
+  },
+  {
+    "geometry": "author_geometry",
+    "threshold": 0.7,
+    "dice": 0.4910535686269296,
+    "area": 0.09083938598632812
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.001,
+    "dice": 0.7396883217515084,
+    "area": 0.19906234741210938
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.005,
+    "dice": 0.8032736385412955,
+    "area": 0.16417694091796875
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.01,
+    "dice": 0.8170508176432889,
+    "area": 0.15538063049316406
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.025,
+    "dice": 0.8294833492479317,
+    "area": 0.14563827514648436
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.05,
+    "dice": 0.8361437178404122,
+    "area": 0.13834896087646484
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.1,
+    "dice": 0.8403552660478955,
+    "area": 0.1302480697631836
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.2,
+    "dice": 0.8395804988366724,
+    "area": 0.12001628875732422
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.3,
+    "dice": 0.83320908135808,
+    "area": 0.11228008270263672
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.5,
+    "dice": 0.8077110537549024,
+    "area": 0.09895057678222656
+  },
+  {
+    "geometry": "inverse_known_padding",
+    "threshold": 0.7,
+    "dice": 0.7623697674739053,
+    "area": 0.085296630859375
+  }
+]

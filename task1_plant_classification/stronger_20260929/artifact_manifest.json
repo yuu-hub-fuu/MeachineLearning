@@ -1,0 +1,34 @@
+{
+  "submission_v3_20260929.csv": {
+    "bytes": 11685,
+    "sha256": "88e0830d1743da1cf3f528e6437525b886e903da9905a39fe24a9e53a040a882"
+  },
+  "baseline_vitl_submission.csv": {
+    "bytes": 11658,
+    "sha256": "44dd00dc5b9f637625249c922f7e8aed09572cb928ae874e9f21c0d2978cad04"
+  },
+  "dino_lpft\\config.json": {
+    "bytes": 790,
+    "sha256": "4927e2b5b4236a416586d688dad6a0aa065b55f02859708e9557b569308be9df"
+  },
+  "dino_lpft\\fold1.pth": {
+    "bytes": 1217684422,
+    "sha256": "d721f6e0d3224a2f62d4df63ee291134e25dd907e93877d5392db3e1dd620021"
+  },
+  "dino_lpft\\fold2.pth": {
+    "bytes": 1217684422,
+    "sha256": "39c94913f5308c8d301893ac592d13713c1b2cb7bdc8e4a879ef5ddb486efa32"
+  },
+  "dino_lpft\\fold3.pth": {
+    "bytes": 1217684422,
+    "sha256": "75953efea4a5f7ab10870f5f77c4c3efd1b127296f173f42ac3c696ebd374d07"
+  },
+  "dino_lpft\\fold4.pth": {
+    "bytes": 1217684422,
+    "sha256": "2836c4c4b8935428b68a13fe704b39f92494a1bad8219285e3a23b9fc036cb5d"
+  },
+  "dino_lpft\\fold5.pth": {
+    "bytes": 1217684422,
+    "sha256": "b52088cb7079f5693338f6a35fd0a9034587516b996a2d9f64f4211ee251243b"
+  }
+}

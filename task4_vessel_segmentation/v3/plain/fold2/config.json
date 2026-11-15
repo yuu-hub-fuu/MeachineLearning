@@ -1,0 +1,55 @@
+{
+  "mode": "train",
+  "folds": [
+    2
+  ],
+  "arms": [
+    "plain",
+    "core"
+  ],
+  "steps": 2600,
+  "stop_at": 1200,
+  "eval_every": 200,
+  "batch": 8,
+  "patch": 128,
+  "scale": 2,
+  "dropout": 0.2,
+  "lr": 0.0007,
+  "resume": false,
+  "fold": 2,
+  "arm": "plain",
+  "seed": 20261303,
+  "train_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "14",
+    "15",
+    "16",
+    "18",
+    "19",
+    "20"
+  ],
+  "valid_ids": [
+    "10",
+    "12",
+    "13",
+    "17"
+  ],
+  "main_target": "PIL bilinear 512 then >0",
+  "auxiliary_target": "PIL nearest 512 native vessel labels",
+  "script_sha256": "bf0840dbd27acb40cf6231224645df025bf4e5e27045918f6e616aa9ef9830c8",
+  "architecture_sha256": "7c26319dc2acce7df8acc3b0847b4f96c5b11d4d6c34610003a0e99ca18a700f",
+  "parameters": 7376342,
+  "optimizer": "AdamW",
+  "lr_end": 2e-05,
+  "core_weight": 0.0,
+  "no_external_retinal_data_or_weights": true
+}

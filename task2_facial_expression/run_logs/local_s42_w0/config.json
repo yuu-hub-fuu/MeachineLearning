@@ -1,0 +1,14 @@
+{
+  "command": "train",
+  "variant": "local",
+  "name": "local_s42_w0",
+  "epochs": 12,
+  "size": 160,
+  "batch": 64,
+  "workers": 0,
+  "lr": 0.0001,
+  "seed": 42,
+  "full": false,
+  "max_steps": 0,
+  "schedule_epochs": 12
+}

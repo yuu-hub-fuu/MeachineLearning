@@ -1,0 +1,61 @@
+{
+  "accuracy": 0.946,
+  "folds": [
+    {
+      "fold": 1,
+      "accuracy": 0.95,
+      "params": {
+        "bioclip_weight": 0.0,
+        "gamma": 1.0,
+        "C": 100.0
+      },
+      "seconds": 1.99
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.93,
+      "params": {
+        "bioclip_weight": 0.5,
+        "gamma": 1.0,
+        "C": 10.0
+      },
+      "seconds": 1.97
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.93,
+      "params": {
+        "bioclip_weight": 0.0,
+        "gamma": 1.0,
+        "C": 100.0
+      },
+      "seconds": 1.92
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.95,
+      "params": {
+        "bioclip_weight": 0.0,
+        "gamma": 1.0,
+        "C": 10.0
+      },
+      "seconds": 2.08
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.97,
+      "params": {
+        "bioclip_weight": 0.0,
+        "gamma": 1.0,
+        "C": 100.0
+      },
+      "seconds": 2.03
+    }
+  ],
+  "final_params": {
+    "bioclip_weight": 0.5,
+    "gamma": 1.0,
+    "C": 10.0
+  },
+  "protocol": "Nested image-level CV; fixed RBF kernels; SVC calibration uses training subset only."
+}

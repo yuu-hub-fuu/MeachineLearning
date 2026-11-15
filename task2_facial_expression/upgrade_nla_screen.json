@@ -1,0 +1,14 @@
+{
+  "kind": "nla",
+  "single": {
+    "accuracy": 0.5056390977443609,
+    "macro_f1": 0.45468661611807937,
+    "nll": 1.9669122695922852
+  },
+  "flip": {
+    "accuracy": 0.5105733082706767,
+    "macro_f1": 0.45999533154352434,
+    "nll": 1.9184346199035645
+  },
+  "note": "Frozen pretrained checkpoint on fixed holdout; source overlap possible; not Kaggle score"
+}

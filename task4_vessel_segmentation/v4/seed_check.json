@@ -1,0 +1,13 @@
+{
+  "fold": 2,
+  "alternate_seed_offset": 10000,
+  "selected_rule": {
+    "alpha": 0.5,
+    "threshold": 0.425
+  },
+  "baseline_v2": 0.8136803411596336,
+  "main_seed": 0.8236703534483061,
+  "alternate_seed": 0.8249013848570561,
+  "alternate_delta_vs_v2": 0.011221043697422495,
+  "note": "Same global rule, no threshold retuning for this seed. Diagnostic only; alternate weights are not used in test submission."
+}
