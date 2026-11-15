@@ -12,16 +12,16 @@
 ## 结果
 | 提交 | 公开榜 RMSE | 私榜 RMSE |
 |---|---|---|
-| 第 3 折模型单独预测（`submission-file` 命令生成） | 17.44647 | 19.12724 |
+| 5 折模型预测坐标平均（`submit-file` 命令生成） | 16.98771 | 20.96089 |
 
-本地 5 折 OOF RMSE 为 18.31；第 3 折自身验证集（16 张）RMSE 为 10.59。
+本地 5 折 OOF RMSE 为 18.31。
 
 ## 运行
 ```bash
 pip install -r requirements.txt
 python main.py --root work prepare --archive 2026task3.zip
 python main.py --root work train --name hrnet_s384
-python main.py --root work submit-file --checkpoint work/runs/hrnet_s384/fold3/best.pt --output submission.csv
+python main.py --root work submit-file --checkpoints work/runs/hrnet_s384/fold0/best.pt work/runs/hrnet_s384/fold1/best.pt work/runs/hrnet_s384/fold2/best.pt work/runs/hrnet_s384/fold3/best.pt work/runs/hrnet_s384/fold4/best.pt --output submission.csv
 ```
 `--root` 下需放 HRNet-W32 ImageNet 权重 `cache/hrnet_w32-36af842e.pth`（来源：TransPose 作者发布页 https://github.com/yangsenius/TransPose/releases/tag/ImageNet）。
 

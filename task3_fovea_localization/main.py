@@ -22,7 +22,7 @@ def build_parser():
     t.add_argument('--seed', type=int, default=20261027)
     t.add_argument('--folds', type=int, nargs='+', default=[0, 1, 2, 3, 4])
     s = sub.add_parser('submit-file')
-    s.add_argument('--checkpoint', type=Path, required=True)
+    s.add_argument('--checkpoints', type=Path, nargs='+', required=True)
     s.add_argument('--size', type=int, default=384)
     s.add_argument('--output', type=Path, default=Path('submission.csv'))
     return p
@@ -47,8 +47,8 @@ def main():
             print(model.train_fold(rows, fold, args.name, args.epochs, args.batch, args.lr, args.seed))
     else:
         _, test_rows = split_rows(rows)
-        net = model.load(args.checkpoint)
-        pred = model.predict(net, test_rows)
+        preds = [model.predict(model.load(c), test_rows) for c in args.checkpoints]
+        pred = sum(preds) / len(preds)
         print(write_submission(args.output, args.root, test_rows, pred))
 
 
