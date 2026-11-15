@@ -23,7 +23,7 @@ python main.py --root work submit-file --checkpoints work/runs/hrnet_s384/fold0/
 `--root` 下需放 HRNet-W32 ImageNet 权重 `cache/hrnet_w32-36af842e.pth`（来源：TransPose 作者发布页 https://github.com/yangsenius/TransPose/releases/tag/ImageNet）。
 
 ## 第三方代码
-`third_party/DarkPose` 为 DARK 作者开源实现（https://github.com/ilovepose/DarkPose ，commit 0185b427f34a08d93ea7e948ccc3e7fdc78d88c5，MIT 许可，见其中 LICENSE），未作修改。复用其中的 HRNet 网络、JointsDataset 数据增强与高斯目标、JointsMSELoss 和 DARK 解码；本仓库代码负责数据准备、分组交叉验证、训练组织与提交文件生成。
+`third_party/DarkPose` 为 DARK 作者开源实现（https://github.com/ilovepose/DarkPose ，commit 0185b427f34a08d93ea7e948ccc3e7fdc78d88c5，MIT 许可，见其中 LICENSE）。复用其中的 HRNet 网络、JointsDataset 数据增强与高斯目标、JointsMSELoss 和 DARK 解码；本仓库代码负责数据准备、分组交叉验证、训练组织与提交文件生成。
 
 参考文献：
 - Sun et al. Deep High-Resolution Representation Learning for Human Pose Estimation. CVPR 2019.
